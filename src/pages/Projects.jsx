@@ -36,7 +36,7 @@ const Projects = () => {
               animate={inView ? "visible" : "hidden"}
               transition={{ duration: 0.6 }}
             >
-      <div className="relative container mx-auto sm:px-4 px-4">
+      <div className="relative container mx-auto sm:px-2 px-4">
       <p className="text-4xl font-semibold text-center my-11 dark:text-gray-400 text-gray-700">
                   Projects
         </p>

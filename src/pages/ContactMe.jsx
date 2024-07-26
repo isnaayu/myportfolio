@@ -26,7 +26,7 @@ export const ContactMe = () => {
   return (
     <>
 
-<div className="relative dark:bg-gray-800 my-8 min-w-full" id='contact'>
+<div className="relative dark:bg-gray-800 my-8 min-w-max" id='contact'>
         <div
           className="absolute inset-0 blur-xl"
           style={{

@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 const fadeInUp = {
-  hidden: { opacity: 0, x: -50 },
-  visible: { opacity: 1, x: 0 },
+  hidden: { opacity: 0, y: 50 },
+  visible: { opacity: 1, y: 0 },
 };
 
 export const Educations = () => {
@@ -23,7 +23,7 @@ export const Educations = () => {
           }}
         ></div>
 
-        <div className="relative container mx-auto sm:px-6 px-6">
+        <div className="relative container mx-auto sm:px-4 px-4">
           <p className="text-4xl font-semibold text-center my-11 dark:text-gray-400 text-gray-700">
             Educations
           </p>

@@ -4,9 +4,9 @@ export const Skills = () => {
   return (
     <>
     <motion.div
-              className="container mx-auto px-4 py-3 gap-64 text-gray-600 overflow-hidden md:flex justify-between"
-              initial={{ opacity: 0, x: 150 }}
-              animate={{ opacity: 1, x: 0 }}
+              className="container mx-auto px-0 py-3 gap-64 text-gray-600 overflow-hidden md:flex justify-between"
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
             >
 <div className="px-4 md:px-8 min-w-full" id="skills">

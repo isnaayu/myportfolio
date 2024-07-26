@@ -22,11 +22,11 @@ export const Certifications = () => {
           }}
         ></div> */}
         
-        <div className="relative container mx-auto sm:px-6 px-6">
+        <div className="relative container mx-auto sm:px-4 px-4">
         <p className="text-4xl font-semibold text-center my-11 dark:text-gray-400 text-gray-700">
                   Certifications
         </p>
-        <div className="flex flex-wrap gap-4 my-4">
+        <div className="flex flex-wrap gap-4 my-4 sm:gap-2">
       {pdfFiles.map((file, index) => (
         <div key={index} className="p-4 border border-gray-300 rounded-lg shadow-md sm:p-2">
           <iframe

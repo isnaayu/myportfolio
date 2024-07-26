@@ -23,7 +23,7 @@ export const Gallery = () => {
               "linear-gradient(143.6deg, rgba(192, 132, 252, 0) 20.79%, rgba(232, 121, 249, 0.26) 40.92%, rgba(204, 171, 238, 0) 70.35%)",
           }}
         ></div>
-        <div className="relative container mx-auto sm:px-6 px-6">
+        <div className="relative container mx-auto sm:px-4 px-4">
           <p className="text-4xl font-semibold text-center my-11 dark:text-gray-400 text-gray-700">
             Gallery
           </p>

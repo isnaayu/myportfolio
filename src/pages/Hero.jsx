@@ -27,7 +27,7 @@ export const Hero = () => {
         <div className="relative" >
           <section >
             <motion.div
-              className="container mx-auto px-4 py-28 gap-64 text-gray-600 overflow-hidden md:flex justify-between"
+              className="container mx-auto px-4 py-28 sm:gap-2 gap-64 text-gray-600 overflow-hidden md:flex justify-between"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}

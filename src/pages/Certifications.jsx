@@ -13,7 +13,7 @@ export const Certifications = () => {
 
   return (
     <>
-      <div className="relative min-w-full bg-gray-100 py-8" id="certifications">
+      <div className="relative min-w-full py-8" id="certifications">
         {/* Background (Optional) */}
         {/* <div
           className="absolute inset-0 blur-xl h-[670px]"

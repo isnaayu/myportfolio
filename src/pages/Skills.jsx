@@ -9,7 +9,7 @@ export const Skills = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
             >
-<div className="px-4 md:px-8 min-w-full" id="skills">
+<div className="px-4 md:px-8 min-w-full sm:max-w-sm" id="skills">
 <p className="text-4xl font-semibold text-center my-11 dark:text-gray-400 text-gray-700">
                   Skills
         </p>

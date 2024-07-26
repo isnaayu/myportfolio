@@ -24,7 +24,7 @@ export const Hero = () => {
               "linear-gradient(143.6deg, rgba(192, 132, 252, 0) 20.79%, rgba(232, 121, 249, 0.26) 40.92%, rgba(204, 171, 238, 0) 70.35%)",
           }}
         ></div>
-        <div className="relative" >
+        <div className="relative sm:p-2" >
           <section >
             <motion.div
               className="container mx-auto px-4 py-28 sm:gap-2 gap-64 text-gray-600 overflow-hidden md:flex justify-between"
@@ -32,7 +32,7 @@ export const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
             >
-              <div className="flex-none space-y-5 max-w-2xl">
+              <div className="flex-none space-y-5 max-w-2xl sm:max-w-screen-sm">
                 <a
                   href=""
                   className="inline-flex gap-x-6 items-center rounded-full p-1 pr-6 border text-sm font-medium duration-150 hover:bg-white"

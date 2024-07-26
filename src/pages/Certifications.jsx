@@ -28,7 +28,7 @@ export const Certifications = () => {
         </p>
         <div className="flex flex-wrap gap-4 my-4 sm:gap-2">
       {pdfFiles.map((file, index) => (
-        <div key={index} className="p-4 border border-gray-300 rounded-lg shadow-md sm:p-2">
+        <div key={index} className="p-3 border border-gray-300 rounded-lg shadow-md sm:p-1">
           <iframe
             title={file.name}
             src={`https://drive.google.com/file/d/${file.fileId}/preview`}

@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 export const Gallery = () => {
   // State untuk menyimpan URL gambar utama
-  const [mainImage, setMainImage] = useState('./src/assets/img/1.jpeg');
+  const [mainImage, setMainImage] = useState('/img/1.jpeg');
 
   // Array gambar kecil untuk digunakan dalam galeri
   const images = [

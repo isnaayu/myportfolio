@@ -149,7 +149,7 @@ export const Navbar = () => {
                   <li>
                   <a
             href="#home"
-            className={`text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 rounded md:p-0 ${activeSection === "#home" ? "text-blue-700" : ""}`}
+            className={`text-gray-700 dark:text-gray-300 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 rounded md:p-0 ${activeSection === "#home" ? "text-blue-700" : ""}`}
             onClick={() => setActiveSection("#home")}
           >
             Home
@@ -158,7 +158,7 @@ export const Navbar = () => {
                   <li>
                   <a
             href="#skills"
-            className={`text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 rounded md:p-0 ${activeSection === "#skills" ? "text-blue-700" : ""}`}
+            className={`text-gray-700 dark:text-gray-300 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 rounded md:p-0 ${activeSection === "#skills" ? "text-blue-700" : ""}`}
             onClick={() => setActiveSection("#skills")}
           >
             Skills
@@ -167,7 +167,7 @@ export const Navbar = () => {
                   <li>
                   <a
             href="#experience"
-            className={`text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 rounded md:p-0 ${activeSection === "#experience" ? "text-blue-700" : ""}`}
+            className={`text-gray-700 dark:text-gray-300 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 rounded md:p-0 ${activeSection === "#experience" ? "text-blue-700" : ""}`}
             onClick={() => setActiveSection("#experience")}
           >
             Experience
@@ -176,7 +176,7 @@ export const Navbar = () => {
                   <li>
                   <a
             href="#education"
-            className={`text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 rounded md:p-0 ${activeSection === "#education" ? "text-blue-700" : ""}`}
+            className={`text-gray-700 dark:text-gray-300 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 rounded md:p-0 ${activeSection === "#education" ? "text-blue-700" : ""}`}
             onClick={() => setActiveSection("#skills")}
           >
             Educations
@@ -185,7 +185,7 @@ export const Navbar = () => {
                   <li>
                   <a
             href="#organizations"
-            className={`text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 rounded md:p-0 ${activeSection === "#organizations" ? "text-blue-700" : ""}`}
+            className={`text-gray-700 dark:text-gray-300 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 rounded md:p-0 ${activeSection === "#organizations" ? "text-blue-700" : ""}`}
             onClick={() => setActiveSection("#organizations")}
           >
             Organizations
@@ -194,7 +194,7 @@ export const Navbar = () => {
                   <li>
                   <a
             href="#project"
-            className={`text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 rounded md:p-0 ${activeSection === "#project" ? "text-blue-700" : ""}`}
+            className={`text-gray-700 dark:text-gray-300 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 rounded md:p-0 ${activeSection === "#project" ? "text-blue-700" : ""}`}
             onClick={() => setActiveSection("#project")}
           >
             Projects
@@ -203,7 +203,7 @@ export const Navbar = () => {
                   <li>
                   <a
             href="#certifications"
-            className={`text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 rounded md:p-0 ${activeSection === "#certifications" ? "text-blue-700" : ""}`}
+            className={`text-gray-700 dark:text-gray-300 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 rounded md:p-0 ${activeSection === "#certifications" ? "text-blue-700" : ""}`}
             onClick={() => setActiveSection("#certifications")}
           >
             Certifications
@@ -212,7 +212,7 @@ export const Navbar = () => {
                   <li>
                   <a
             href="#gallery"
-            className={`text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 rounded md:p-0 ${activeSection === "#gallery" ? "text-blue-700" : ""}`}
+            className={`text-gray-700 dark:text-gray-300 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 rounded md:p-0 ${activeSection === "#gallery" ? "text-blue-700" : ""}`}
             onClick={() => setActiveSection("#gallery")}
           >
             Gallery
@@ -221,7 +221,7 @@ export const Navbar = () => {
                   <li>
                   <a
             href="#contact"
-            className={`text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 rounded md:p-0 ${activeSection === "#contact" ? "text-blue-700" : ""}`}
+            className={`text-gray-700 dark:text-gray-300 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 rounded md:p-0 ${activeSection === "#contact" ? "text-blue-700" : ""}`}
             onClick={() => setActiveSection("#contact")}
           >
             Contact

@@ -82,10 +82,10 @@ export const Hero = () => {
                   remaining open to exploring other areas within the technology sector. I believe that every challenge is an opportunity for
                   learning and growth, and I am prepared to make meaningful contributions in a dynamic and innovative work environment.
                 </p>
-                <div className="flex items-center gap-x-3 sm:text-sm">
+                <div className="flex items-center gap-x-3 sm:text-sm sm:gap-x-2">
                   <button
                     onClick={onDownloadResume}
-                    className="flex items-center justify-center gap-x-1 py-2 px-4 text-white font-medium bg-gray-800 duration-150 hover:bg-gray-700 active:bg-gray-900 rounded-full md:inline-flex"
+                    className="flex sm:text-sm items-center justify-center gap-x-1 py-2 px-4 text-white font-medium bg-gray-800 duration-150 hover:bg-gray-700 active:bg-gray-900 rounded-full md:inline-flex"
                   >
                     Download Resume
                     <svg
@@ -104,7 +104,7 @@ export const Hero = () => {
                   <a
                     href="https://github.com/isnaayu?tab=repositories"
                     target="_blank"
-                    className="flex items-center justify-center gap-x-1 py-2 px-4 text-white font-medium bg-indigo-600 duration-150 hover:bg-gray-700 active:bg-gray-900 rounded-full md:inline-flex"
+                    className="flex sm:text-sm items-center justify-center gap-x-1 py-2 px-4 text-white font-medium bg-indigo-600 duration-150 hover:bg-gray-700 active:bg-gray-900 rounded-full md:inline-flex"
                   >
                     Github
                     <svg
@@ -124,7 +124,7 @@ export const Hero = () => {
                   <a
                     href="https://www.linkedin.com/in/isna-ayu-m/"
                     target="_blank"
-                    className="flex items-center justify-center gap-x-1 py-2 px-4 text-white font-medium bg-blue-500 duration-150 hover:bg-gray-700 active:bg-gray-900 rounded-full md:inline-flex"
+                    className="flex sm:text-sm items-center justify-center gap-x-1 py-2 px-4 text-white font-medium bg-blue-500 duration-150 hover:bg-gray-700 active:bg-gray-900 rounded-full md:inline-flex"
                   >
                     LinkedIn
                     <svg

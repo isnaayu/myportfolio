@@ -11,6 +11,8 @@ import { Hero } from "./pages/Hero";
 import { Organizations } from "./pages/Organizations";
 import  Projects  from "./pages/Projects";
 import { Skills } from "./pages/Skills";
+import { ChatBot } from "./components/ChatBot";
+import { ChatFeature } from "./components/ChatFeature";
 
 function App() {
   
@@ -27,7 +29,9 @@ function App() {
       <Organizations/>
       <Projects/>
       <Certifications/>
-      <ButtonChat/>
+      {/* <ChatBot/>
+      <ButtonChat/> */}
+      <ChatFeature/>
       <Gallery/>
       <ContactMe/>
       <Footer/>

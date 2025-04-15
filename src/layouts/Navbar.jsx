@@ -5,7 +5,7 @@ export const Navbar = () => {
   const [isDarkMode, setIsDarkMode] = useState(
     localStorage.getItem("color-theme") === "dark" ||
       (!localStorage.getItem("color-theme") &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
+        window.matchMedia("(prefers-color-scheme: light)").matches)
   );
 
   useEffect(() => {
